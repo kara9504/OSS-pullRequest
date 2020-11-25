@@ -7,8 +7,8 @@ long timediff(clock_t t1,clock_t t2){
 } 
 
 int main(int argc,char *argv[]){
-	int array_size = 3932160;
-	//int array_size = 1966080; 
+	//int array_size = 3932160;
+	int array_size = 1966080; 
 
 	srand(time(NULL));
 	
