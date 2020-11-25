@@ -31,7 +31,7 @@ int main(int argc,char *argv[]){
 	while(j++ < (repeat_times)){
 		if(k >= array_size) 
 			k=0;
-		arr3[k] = arr1[k] + arr2[k];
+		arr3[k] = arr1[k]*arr2[k];
 		k++;
 	} 
 	
